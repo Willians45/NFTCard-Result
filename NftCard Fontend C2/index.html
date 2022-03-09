@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Frontend Mentor | NFT preview card | Willians Alcalá</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;800&display=swap" rel="stylesheet">
+
+  <style>
+
+    .attribution { font-size: 11px; text-align: center; color:antiquewhite }
+    .attribution a { color: hsl(226, 20%, 83%); }
+    
+    body{
+      font-family: 'Outfit', sans-serif;
+      background-color: hsl(217, 54%, 11%);
+    }
+
+    .container{
+      width: 100%;
+      max-width: fit-content;
+      display: flex;
+      justify-content: center;
+      margin: auto;
+    }
+
+    .container .card{
+      border-radius: 15px;
+      box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+      margin-top: 100px;
+      height: 600px;
+      width: 330px;
+      margin-bottom: 100px;
+      background-color: hsl(216, 50%, 16%);
+    }
+
+    .img{
+      margin-top: 20px;
+      width: 290px;
+      height: 290px;
+      border-radius: 8px;
+      margin-left: 20px;
+    }
+
+    .title{
+      color: hsl(0, 0%, 100%);
+      font-weight: 400;
+      margin-left: 20px;
+    }
+
+    p{
+      font-size: 18px;
+      font-weight: 300;
+      color: hsl(215, 51%, 70%);
+      margin-left: 20px;
+    }
+
+
+
+    .lado{
+      float: left;
+      margin-left: 17px;
+    }
+
+    .lado2{
+      margin-top: 100px;
+    }
+
+    .nose{
+      padding-left: 60px;
+      padding-right: 0px;
+    }
+
+    h4{
+      color: hsl(178, 100%, 50%);
+      font-weight: 400;
+      vertical-align: middle;
+    }
+
+    img.img1{
+      vertical-align:sub;
+      padding-right: 7px;
+    }
+
+    hr{
+      background-color: hsl(215, 32%, 27%);
+      border-color: hsl(215, 32%, 27%);
+      height:1px;
+      width: 90%;
+    }
+
+    .lado2 img{
+      width: 40px;
+      height: 40px;
+      padding-right: 10px;
+      padding-left: 10px;
+    }
+
+    img.img2{
+      vertical-align: middle;
+    }
+
+    span{
+      color: hsl(0, 0%, 100%);
+    }
+
+    .nose .img2{
+      vertical-align: middle;
+    }
+
+    .img2{
+      padding-bottom: 2px;
+      padding-right: 7px;
+    }
+
+  </style>
+
+</head>
+
+<body>
+  <div class="container">
+  <div class="card">
+      <a href=""><img class="img" src="/images/image-equilibrium.jpg" alt=""></a>
+      <h2 class="title">Equilibrium #3429</h2>
+      <p>Our Equilibrium collection promotes <br>balance and calm.</p> 
+
+      <div class="lado">
+        <h4><img class="img1" src="/images/icon-ethereum.svg" alt="">0.041ETH</h4>
+      </div>
+
+      <div class="lado">
+        <p class="nose"><img class="img2" src="/images/icon-clock.svg" alt="">3 days left</p>
+      </div>
+      
+      <div class="lado2">
+        <hr>
+      <p><img class="img2" src="/images/image-avatar.png" alt="">Creation of <span>Jules Wyvern</span></p>
+      </div>
+
+   </div>
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Willians Alcalá</a>.
+  </div>
+</body>
+</html>
